@@ -1,6 +1,8 @@
-let min= window.prompt("Enter a smaller number");
-let max= window.prompt("Enter a bigger number");    
+let min= window.prompt("Enter the year you started school");
+let max= window.prompt("Enter the year you will finish school");    
+let current= window.prompt("Enter the year it is now");
 
-if(min>max){
-    console.log("I do not tolerate idiots. Bye")
+current = 2022
+if ((min<current) && (max>current)) {
+    console.log("Good job")
 }
